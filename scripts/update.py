@@ -82,6 +82,8 @@ def fetch_period(job):
         "values": values, "source_divisions": bases, "source_accounts": account_names
     }
 def main():
+    if not API_KEY:
+        raise RuntimeError("DART_API_KEY 또는 OPENDART_API_KEY repository secret이 필요합니다. README의 최초 설정을 완료한 뒤 재실행하세요.")
     now = datetime.now(timezone.utc)
     current_year = now.year
     jobs = []
