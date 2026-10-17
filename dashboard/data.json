@@ -1,0 +1,23 @@
+{
+  "company": {
+    "name": "삼성전자",
+    "name_en": "Samsung Electronics Co., Ltd.",
+    "stock_code": "005930",
+    "corp_code": "00126380"
+  },
+  "updated_at": null,
+  "currency": "KRW",
+  "unit": "원",
+  "methodology": "OpenDART 재무제표 데이터가 수집되면 이 파일이 자동 갱신됩니다.",
+  "periods": {
+    "annual": [],
+    "half_year": [],
+    "quarterly": []
+  },
+  "collection": {
+    "annual_count": 0,
+    "half_year_count": 0,
+    "quarterly_count": 0,
+    "warnings": []
+  }
+}
